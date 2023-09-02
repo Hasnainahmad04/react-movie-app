@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import Form from "./common/form";
-import { loginUser } from "./services/login";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import Form from "./common/form";
+import { loginUser } from "./services/login";
 
 function withParams(Component) {
   return (props) => <Component {...props} navigate={useNavigate()} />;
@@ -19,7 +19,7 @@ class LoginForm extends Form {
       <div style={{ maxWidth: "40rem", margin: "auto" }}>
         <form autoComplete="off" onSubmit={this.handleSubmit}>
           <div className="m-3">
-            <h1>Login Form</h1>
+            <h1 className="text-center">Login</h1>
             {this.renderInput("email", "email", "Email")}
             {this.renderInput("password", "password", "Passwsord")}
             {this.renderButton("login")}
@@ -36,7 +36,6 @@ class LoginForm extends Form {
       toast("Login Succesfully");
     } catch (error) {
       console.log(error);
-      const errors = { ...this.state.errors };
       toast(error.message);
       // errors.email = error.message;
       // this.setState({ errors });

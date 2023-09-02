@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Getmovies, deleteMovie } from "./services/movies";
 import { getGenres } from "./services/genre";
 import { Paginate } from "./common/paginatedata";
-import { HashLoader } from "react-spinners";
+import { FadeLoader } from "react-spinners";
 import Pagination from "./common/pagination";
 import List from "./common/list_group";
 import MovieTable from "./Movie_table";
@@ -76,7 +76,7 @@ class Movies extends Component {
           <Link className="btn btn-primary" to="/movies/new">
             New
           </Link>
-          <HashLoader color="#000000" loading={loading} className="m-auto" />
+          <FadeLoader color="#000000" loading={loading} className="m-auto" />
           <MovieTable
             movies={movies}
             onLike={this.like}

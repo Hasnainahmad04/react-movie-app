@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import { registerUser } from "./services/user";
+import React from "react";
 import Form from "./common/form";
+import { registerUser } from "./services/user";
 
 class Register extends Form {
   state = {
@@ -12,7 +12,7 @@ class Register extends Form {
       <div style={{ maxWidth: "40rem", margin: "auto" }}>
         <form autoComplete="off" onSubmit={this.handleSubmit}>
           <div className="m-3">
-            <h1>Register Form</h1>
+            <h1>Register</h1>
             {this.renderInput("text", "name", "Name")}
             {this.renderInput("text", "username", "Username")}
             {this.renderInput("email", "email", "Email")}
