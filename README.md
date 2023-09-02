@@ -1,14 +1,9 @@
-
 # Movies APP
 
-This is movies app having some basic features like
-ADD, Update, Delete, Sorting and Pagination
-
-
-
-
+This is movies app having some basic features like ADD, Update, Delete, Sorting and Pagination
 
 ## Features
+
 - Login
 - Registration
 - ADD new Movie
@@ -17,20 +12,17 @@ ADD, Update, Delete, Sorting and Pagination
 - Sort Movies
 - Filter Movies
 
-
-
-## Tech Stack
+## Technologies
 
 **Client:** React, Axios, Bootstrap
 
-**Server:** Json Serve
-
+**Server:** Json Server
 
 ## Demo
-Site is Live at https://hasnainahmad04.github.io/movies
 
-Backend https://json-movie-db-60d2d567f2cd.herokuapp.com/
+- [Live Demo](https://hasnainahmad04.github.io/movies)
 
+- [BASE_URL](https://json-movie-db-60d2d567f2cd.herokuapp.com/)
 
 ## Authors
 
