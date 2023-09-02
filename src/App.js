@@ -17,7 +17,7 @@ function App() {
       <ToastContainer />
       <div className="component">
         <Routes>
-          <Route path="/" element={<Movies />} />
+          <Route path="/" element={<Navigate to="/movies" />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/rental" element={<Rental />} />
           <Route path="/movies/:id" element={<Movieform />} />
