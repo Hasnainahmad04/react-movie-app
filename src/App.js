@@ -17,13 +17,13 @@ function App() {
       <ToastContainer />
       <div className="component">
         <Routes>
+          <Route path="/" element={<Movies />} />
           <Route path="/customers" element={<Customers />} />
           <Route path="/rental" element={<Rental />} />
           <Route path="/movies/:id" element={<Movieform />} />
           <Route path="/not-found" element={<Notfound />} />
           <Route path="/login" element={<LoginForm />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/" element={<Navigate to="/movies" />} />
           <Route path="/movies" element={<Movies />} />
 
           <Route path="/*" element={<Navigate to="/not-found" />} />
