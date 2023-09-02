@@ -20,7 +20,7 @@ This is movies app having some basic features like ADD, Update, Delete, Sorting 
 
 ## Demo
 
-- [Live Demo](https://hasnainahmad04.github.io/movies)
+- [Live Demo](https://hasnainahmad04.github.io/react-movie-app/)
 
 - [BASE_URL](https://json-movie-db-60d2d567f2cd.herokuapp.com/)
 
