@@ -1,0 +1,139 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Fast & Furius 1",
+      "rating": 9.2,
+      "year": 1999  
+    },
+    {
+      "id": "2",
+      "title": "The Godfather",
+      "year": 1999,
+      "rating": 9.2
+    },
+    {
+      "id": "3",
+      "title": "The Godfather: Part II",
+      "year": 1999, 
+      "rating": 9
+    },
+    {
+      "id": "4",
+      "title": "Fast & Furius 2",
+      "year": 2000,   
+      "rating": 9
+    },
+    {
+      "id": "5",
+      "title": "Fast & Furius 3",
+      "rating": 8.9,
+      "year": 2001
+    },
+    {
+      "id": "6",
+      "title": "Avengers",
+      "year": 2000,  
+      "rating": 8.9
+    },
+    {
+      "id": "7",
+      "title": "Fast & Furius 4",
+      "year": 2002,
+      "rating": 8.6
+    },
+    {
+      "id": "8",
+      "title": "Avengers: Endgame",
+      "year": 1999, 
+      "rating": 8.7
+    },
+    {
+      "id": "9",
+      "title": "Fast & Furius 5",
+      "year": 2001,  
+      "rating": 8.7
+    },
+    {
+      "id": "10",
+      "title": "Avengers: civil War",
+      "year": 2000,  
+      "rating": 8.7
+    },
+    {
+      "id": "11",
+      "title": "Avengers: age of ultron",
+      "year": 2002,  
+      "rating": 8.6
+    },
+    {
+      "id": "12",
+      "title": "Avengers: infinity war",
+      "rating": 8.5,
+      "year": 2001    
+    },
+    {
+      "id": "13",
+      "title": "Frozen",
+      "year": 2001,  
+      "rating": 8.5
+    },
+    {
+      "id": "14",
+      "title": "Toy Story",
+      "year": 2001, 
+      "rating": 8.5
+    },
+    {
+      "id": "15",
+      "title": "Sleeping Beauty",
+      "year": 2001,   
+      "rating": 8.5
+    },
+    {
+      "id": "16",
+      "title": "The Harry Potter series",
+      "year": 2001,
+      "rating": 8.7
+    },
+    {
+      "id": "17",
+      "title": "Jurassic Park series",
+      "year": 2001,
+      "rating": 8.7
+    },
+    {
+      "id": "18",
+      "title": "Mission Impossible series",
+      "year": 2001,
+      "rating": 8.7
+    },
+    {
+      "id": "19",
+      "title": "Good Will Hunting",
+      "year": 2001,  
+      "rating": 8.9
+    },
+    {
+      "id": "20",
+      "title": " The Departed",
+      "rating": 8.6,
+      "year": 2002
+   
+    },
+    {
+      "id": "EWOC8Gw",
+      "title": "New Movie",
+      "rating": "8.9",
+      "year": "2019"
+ 
+    },
+    {
+      "id": "TTk_O61",
+      "title": "new ",
+      "rating": "2",
+      "year": "2020"
+    
+    }
+  ]
+}
