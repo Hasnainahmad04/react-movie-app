@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hasnainahmad04/react-movie-app/static/css/main.d64a6a34.css",
+    "main.js": "/Hasnainahmad04/react-movie-app/static/js/main.4f21c0db.js",
+    "static/js/787.c1112931.chunk.js": "/Hasnainahmad04/react-movie-app/static/js/787.c1112931.chunk.js",
+    "index.html": "/Hasnainahmad04/react-movie-app/index.html",
+    "main.d64a6a34.css.map": "/Hasnainahmad04/react-movie-app/static/css/main.d64a6a34.css.map",
+    "main.4f21c0db.js.map": "/Hasnainahmad04/react-movie-app/static/js/main.4f21c0db.js.map",
+    "787.c1112931.chunk.js.map": "/Hasnainahmad04/react-movie-app/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d64a6a34.css",
+    "static/js/main.4f21c0db.js"
+  ]
+}
